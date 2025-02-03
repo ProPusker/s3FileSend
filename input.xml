@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ABC>
+    <Commands>
+        <Command
+            SourceFolder="D:\ABCftp\DOG"
+            FileFormat="*.zip"
+            Age="2"
+            S3RegionEndpoint="us-west-2"
+            S3BucketName="ABC-FOLDER"
+            S3AccessKeyID="XXXXXXX"
+            S3SecretAccessKey="XXXXXXX=="
+            DestinationFolder="DOG"
+            Move="true" />
+        <Command
+            SourceFolder="\\ABCftp\ABCftp.ABCub.local\users\Data\system"
+            FileFormat="INVOICE*.CSV"
+            Age="2"
+            S3RegionEndpoint="us-west-2"
+            S3BucketName="cat-FOLER"
+            S3AccessKeyID="XXXXXXX"
+            S3SecretAccessKey="XXXXXX=="
+            DestinationFolder=datadog"
+            Move="true" />
+    </Commands>
+</ABC>
