@@ -1,3 +1,9 @@
+# Author: Pusker 
+# Email: propuskerworks@gmail.com
+# Date: 2022-10-22
+# Version: 1.0.0
+
+
 $ScriptName = [io.path]::GetFileNameWithoutExtension($(Get-ChildItem $PSCommandPath | Select-Object -Expand Name))
 $ScriptBuild = "211214"
 $ScriptPath = Split-Path -Path $PSCommandPath
